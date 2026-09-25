@@ -1,0 +1,22 @@
+{
+  "grid_resolution_m": 1000,
+  "evaluation_scales_km": [1, 2, 5, 10],
+  "gaussian_fwhm_km": [1, 2, 5, 10, 25],
+  "gaussian_minimum_valid_weight": 0.75,
+  "gaussian_truncate_sigma": 4.0,
+  "original_region_windows": {
+    "chukchi": {"south": 70.0, "north": 76.0, "west": 180.0, "east": 205.0},
+    "beaufort": {"south": 70.0, "north": 78.0, "west": 205.0, "east": 230.0}
+  },
+  "independent_extension_region_windows": {
+    "central_arctic": {"south": 82.0, "north": 90.0, "west": 0.0, "east": 360.0},
+    "chukchi": {"south": 68.0, "north": 82.0, "west": 180.0, "east": 205.0},
+    "beaufort": {"south": 68.0, "north": 82.0, "west": 205.0, "east": 230.0},
+    "other_arctic": {"south": 68.0, "north": 82.0, "west": 230.0, "east": 345.0},
+    "fram_strait_east_greenland": {"south": 68.0, "north": 82.0, "west": -15.0, "east": 10.0},
+    "barents": {"south": 68.0, "north": 82.0, "west": 10.0, "east": 60.0},
+    "kara": {"south": 68.0, "north": 82.0, "west": 60.0, "east": 100.0},
+    "laptev": {"south": 68.0, "north": 82.0, "west": 100.0, "east": 160.0},
+    "east_siberian": {"south": 68.0, "north": 82.0, "west": 160.0, "east": 180.0}
+  }
+}
